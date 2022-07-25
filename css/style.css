@@ -1,0 +1,559 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&family=Josefin+Sans:ital,wght@1,200&family=Roboto+Condensed:wght@300&display=swap');
+
+#background {
+    /*background-image:url(../assets/background/mockup-photos-5nUNdLueQio-unsplash\ \(1\).jpg); */
+    background-size:cover;
+    background-image: url(../assets/background/ameer-basheer-Xrx3WWyrwes-unsplash.jpg);
+    width: 100%;
+}
+/* menu */
+
+#logo {
+    display: flex ;
+    justify-content: center;
+}
+.encabezado__logo{
+    margin: 10px;
+}
+.encabezado__nombre span {
+    color: blue;
+}
+.encabezado__nombre{
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menu{
+    background-color:blue;
+    top:20px;
+    right: 80px;
+}
+.menu__lista{
+    list-style: none;
+    margin: 0;
+    padding:0 ;
+}
+.menu__links{
+    display: inline-block;
+}
+.menu__links a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px 92px;
+}
+
+.menu__links a:hover{
+    background-color: rgb(0, 72, 255);
+}
+
+/*index*/
+
+.contenedor{
+    width: 100%;
+    height: 100%;
+    margin: 15px 15px 80px 15px ;
+    display: flex;
+    border-color: bisque;
+    border-width: 5px;
+}
+
+/*index---primer paso*/
+
+.primerPaso__imagen{
+    width: 400px;
+    margin: 10px;
+    padding: 5px;
+    border: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 220px;
+}
+
+.primerPaso__titulo{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+    color: #fff; 
+    margin-left: 240px;
+    text-transform: uppercase;
+    text-shadow:blue 5px 1px 4px;
+    
+}
+.imagen__texto{
+    display: flex;
+    align-items: center;
+}
+.textos{
+    flex-direction: column;
+    margin-left: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    color: #fff;
+    text-align:center;
+    list-style-position: inside;
+}
+.primerPaso__titulo2{
+    margin: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+}
+
+.boton{ 
+        margin-left: 720px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: rgb(0, 128, 255);
+        color:#fff;
+        font-size: 20px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border-radius: 5px;
+        padding: 5px;
+        border: 1px solid #fff;
+        text-transform: uppercase;
+        border: none;
+        width: 20%;
+}
+
+.boton:hover{
+    background-color: rgba(0, 128, 255, 0.747);
+    width: 20%;
+}
+
+/*segundo paso*/
+.segundoPaso{
+    width: 100%;
+    height: 100%;
+}
+.imagen__texto2{
+    display: flex;
+    flex-direction: row-reverse ;
+    align-items: center;
+}
+
+.segundoPaso__imagen{
+    width: 400px;
+    margin: 10px;
+    padding: 5px;
+    border: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-right: 200px;
+}
+.textos2{ 
+    flex-direction: column;
+    margin-right: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    color: #fff;
+    text-align:center;
+    list-style-position: inside;
+
+}
+
+.segundoPaso__titulo{
+    margin: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+
+
+
+.boton2{
+    margin-left:250px;;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(0, 128, 255, 0.747) ;
+    color: #fff;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    border: none;
+    width: 20%;
+}
+
+.boton2:hover{
+    background-color: rgba(0, 128, 255, 0.418);
+    }
+
+/* Tercer Paso */
+
+.tercerPaso {
+    width: 100%;
+    height: 100%;
+}
+
+.tercerPaso__imagen {
+    width: 400px;
+    margin: 10px;
+    padding: 5px;
+    border: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 220px;
+}
+
+.imagen__texto3{
+    display: flex;
+    align-items: center;
+}
+
+.tercerPaso__Textos{
+    flex-direction: column;
+    margin-left: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    color: #fff;
+    text-align:center;
+    list-style-position: inside;
+}
+
+.tercerPaso__titulo {
+    margin: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+}
+
+.boton3 {
+    margin-left: 720px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color:rgba(0, 128, 255, 0.747);
+    color: #fff;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    border: none;
+    width: 20%;
+}
+.boton3:hover{
+    background-color: rgba(0, 128, 255, 0.747);
+    width: 20%;
+}
+/*footer*/
+
+footer{
+    background-color: rgba(0, 0, 255, 0.416);
+    color: #fff;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.pie-de-pagina{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr ;
+}
+.email{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    
+}
+.numero{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.instagram{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+.instagram1{
+    text-decoration: none;
+    color: #fff;
+
+}
+.whatsapp1{
+    text-decoration: none;
+    color: #fff;
+
+}
+.whatsapp{
+    padding: 10px;
+    grid-column: 3/4;
+    grid-row: 3/4;
+    text-decoration: none;
+
+}
+.redes{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+/*formulario*/
+
+
+.formulario__titulo{
+ text-align: center;
+ color: brown;
+ font-size: 30px;
+}
+.formulario-contacto form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+
+}
+.formulario-contacto form .bloque{
+    grid-column:1/3;
+}
+.formulario-contacto h2{
+    font-size: 30px;
+    color: #fff;
+}
+.formulario-contacto p{
+    margin: 0;
+    padding: 1em;
+}
+
+.nombre-empresa{
+    text-align: center;
+    color: #fff;
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nombre-empresa span{
+    color: blue;
+}
+.contenedor-contacto{
+    box-shadow: 0 0 20px 0 rgb(255, 255, 255 ,.3);
+    background-color: rgba(0, 0, 0, 0.486);
+}
+.contenedor-contacto > * {
+    padding: 1rem;
+}
+.formulario-contacto form button,
+.formulario-contacto form input,
+.formulario-contacto form textarea{
+    width: 100%;
+    padding:.7rem;
+    border:none;
+    background:none;
+    outline: none;
+    border-bottom: 1px solid blue;
+    color: #fff;
+}
+.formulario-contacto form button {
+    background-color: blue;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+
+/* nosotros */
+.primercontenedor{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px auto;
+
+}
+
+.primercontenedor__titulo{
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.primercontenedor__titulo span{
+    color: blue;
+}
+.primercontenedor__parrafo{
+    color: #fff;
+}
+
+.segundocontenedor{
+    text-align: center;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px auto;
+}
+
+.segundocontenedor__mapa{
+    margin: 10px;
+    border-style: groove;
+    border: 2px black solid;
+
+}
+
+.tercercontenedor{
+    text-align: center;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+}
+.tercercontenedor img {
+    border-radius: 10px;
+    margin: 10px;
+}
+.cuartocontenedor__titulo{
+    color: #fff;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    text-transform: uppercase;
+}
+.imagenes{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.cuartocontenedor__imagenes{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+    justify-items: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.731);
+    padding: 10px;
+}
+/*servicioss*/
+
+.servicios{
+    text-align: center;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+}
+.servicios__imagen{
+    margin: 20px;
+    width: 400px;
+    
+
+}
+.servicios__items{
+    list-style-position: inside;
+    margin-top: 90px;
+    margin-left: 80px;
+}
+
+/* referencia */
+
+.video__referencia{
+    text-align: center;
+    color: #fff;
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.video__titulo{
+    margin: 10px;
+    font-size: 30px;
+}
+
+
+
+/* media */
+
+@media only screen and (max-width:576px) {
+    /* generales */
+    .encabezado{ 
+        flex-direction: column;
+        
+    }
+    .menu__links a {
+        padding: 10px 22px;
+    }
+    /*index*/
+    .contenedor{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .primerPaso{
+        max-width: 100%;
+    }
+    .primerPaso__titulo{
+        font-size: 25px;
+        margin-left: 0;
+        justify-items: center;
+        align-items: center;
+    }
+    .imagen__texto{
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+    .textos{
+        margin-left: 15px;
+        justify-items: center;
+        align-items: center;
+    }
+    .primerPaso__imagen{
+        margin-left: 0;
+    }
+    .boton{
+        margin-left: 35%;
+        justify-items: center;
+    }
+
+
+    .segundoPaso__imagen{
+        margin-left: 35%;
+
+    }
+    .imagen__texto2{
+        flex-direction: column;
+    }
+    .textos2{
+        margin-left: 10px;
+    }
+    .boton2{
+        margin-left: 37%;
+    }
+
+
+    .imagen__texto3{
+        flex-direction: column;
+    }
+    .tercerPaso__imagen{
+        margin-right: 37%;
+    }
+    .boton3{
+        margin-left: 35%;
+    }
+    /*servivios*/
+
+    .video{
+        width: auto;
+    }
+    .servicios{
+        flex-direction: column-reverse;
+    }
+    .servicios__items{
+        margin-right: 15%;
+    }
+    .servicios__titulo{
+        text-transform: uppercase;
+        font-size: 25px;
+    }
+        /* Nosotros */
+    .segundocontenedor__mapa{
+        width: auto;
+        height: auto;
+    }
+    .cuartocontenedor__imagenes{ 
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(6,1fr);
+    }
+}

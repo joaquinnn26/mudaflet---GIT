@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios</title>
+    <link rel="shortcut icon" href="../assets/logo/moving.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div id="background">
+
+        <header class="encabezado" >
+            <!--Logo-->
+        <div id="logo">
+            <a class="encabezado__logo" href="../index.html"><img src="../assets/logo/moving.png" alt=""></a>
+            <h2 class="encabezado__nombre">muda<span>flet</span></h2>
+        </div>
+            <nav class="menu">
+            <ul class="menu__lista">
+                <!--enlaces relativos-->
+                <li class="menu__links"><a class="link__inicio" href="../index.html">Inicio</a></li>
+                <li class="menu__links"><a class="link__contacto" href="./contactanos.html">Contactanos</a></li>
+                <li class="menu__links"><a class="link__nosotros" href="./nosotros.html">Nosotros</a></li>
+                <li class="menu__links"><a class="link__servicios" href="./servicios.html">Servicios</a></li>
+                <li class="menu__links"><a class="link__referencia" href="./referencias.html">Referencias</a></li>
+            </ul>
+            </nav>
+        </header>
+
+    <main>
+        <section>
+            <article class="video__referencia">
+                <h1 class="video__titulo">Te recomiendo ver este video,es un pequeño tips </h1>
+                <iframe class="video" src="https://www.youtube.com/embed/vNBAU_oA-2A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </article>
+            <Article class="servicios">
+                <div>
+                <img class="servicios__imagen" src="../assets/imagen/michal-balog-66NaCdBrkCs-unsplash.jpg" alt="">
+            </div>
+            <div class="servicios__items">
+                <h1 class="servicios__titulo">Servicios</h1>
+                <p>Te ofrecemos muchisimos servicios para que tu mudanza sea mucho mas comoda y segura</p>
+                <ul>
+                    <li>
+                        Carga y descarga
+                    </li>
+                    <li>
+                        Embalaje
+                    </li>
+                    <li>
+                        Cajas sin costo
+                    </li>
+                    <li>
+                        Ascenso y descenso por soga
+                    </li>
+                </ul>
+            </div>
+            </Article>
+
+        </section>
+        <div class="contenido">
+            <h1 class="nombre-empresa">MUDA<span>FLET</span></h1>
+            <div class="contenedor-contacto">
+                <div class="formulario-contacto">
+                    <h2>¡Deja tus datos y te contactamos!</h2>
+            <form  action="procesar.php" name="Contacto" method="post">
+                <p class="prueba">
+                    <label class="formulario__item1">Nombre<input name="nombre" type="text"  required>
+                    </label>
+                </p>
+                <p>
+                    <label class="formulario__item2">
+                        Apellido<input name="apellido" type="text"  required>
+                    </label>
+                </p>
+                <p>
+                    <label class="formulario__item3">
+                        Numero de telefono<input name="Numero de telefono" type="tel"  required>
+                    </label>
+                </p>
+                <p>
+                    <label class="formulario__item4">
+                    Email<input name="Email" type="email"  required>
+                    </label>
+                </p>
+                <p>
+                    Tipo De Mudanza <select class="formulario__item5" name="Tipo de mudanza">
+                        <option value="Empresa">Mudanza de una oficina</option>
+                        <option value="Casa">Mudanza de una casa</option>
+                    </select>
+                </p>
+                <p class="bloque">
+                Mensaje<textarea name="texto" id="" cols="30" rows="10" placeholder="Escribe tu consulta"></textarea>
+                </p>
+                <p class="bloque">
+                <button type="submit">Enviar</button>
+                </p>
+            </form>
+        </div>
+    </div>
+    </div>
+
+    </main>
+
+
+    <footer class="pie-de-pagina">
+        <img src="../assets/logo/moving.png" alt="">
+        <p class="email-numero">
+            <div class="numero">
+            <img  src="../assets/logo/telefono.png" width="24px" alt="">
+            3511-2918321
+            </div>
+            <div class="email">
+            <img  src="../assets/logo/correo-electronico.png" width="24px" alt="">
+            email@fsas.com
+            </div>
+        </p>
+        <p class="redes">Seguinos en nuestras redes
+            <div class="instagram">
+        <a class="instagram1" href=""><img width="24px" src="../assets/logo/facebook-app-symbol.png" alt="">MudaFlet</a>
+    </div>
+    <div class="whatsapp">
+        <a class="whatsapp1" href=""><img width="24px" src="../assets/logo/instagram.png" alt="">@Muda_flet</a>
+    </div>
+        </p>
+            </footer>
+</body>
+</html>

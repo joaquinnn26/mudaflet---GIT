@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros</title>
+    <link rel="shortcut icon" href="../assets/logo/moving.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+>
+</head>
+<body>
+    <div id="background">
+
+        <header class="encabezado" >
+            <!--Logo-->
+        <div id="logo">
+            <a class="encabezado__logo" href="../index.html"><img src="../assets/logo/moving.png" alt=""></a>
+            <h2 class="encabezado__nombre">muda<span>flet</span></h2>
+        </div>
+            <nav class="menu">
+            <ul class="menu__lista">
+                <!--enlaces relativos-->
+                <li class="menu__links"><a class="link__inicio" href="../index.html">Inicio</a></li>
+                <li class="menu__links"><a class="link__contacto" href="./contactanos.html">Contactanos</a></li>
+                <li class="menu__links"><a class="link__nosotros" href="./nosotros.html">Nosotros</a></li>
+                <li class="menu__links"><a class="link__servicios" href="./servicios.html">Servicios</a></li>
+                <li class="menu__links"><a class="link__referencia" href="./referencias.html">Referencias</a></li>
+            </ul>
+            </nav>
+        </header>
+    <main>
+        <section>
+            <article class="primercontenedor">
+                <h1 class="animate__animated animate__tada primercontenedor__titulo">MUDA <span>FLET</span></h1>
+                <P class="primercontenedor__parrafo">Somos una empresa dedicada a nuestro rubro con mucha seriedad,seguridad y confianza</P>
+            </article>
+            <article class="segundocontenedor">
+                <h2 class="segundocontenedor__subtitulo">¿De donde somos?</h2>
+                <p class="segundocontenedor__parrafo">Somos de la Provincia de Cordoba,Argentina</p>
+                <iframe class="segundocontenedor__mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108962.41422109827!2d-64.56977767121037!3d-31.412047398152744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d6640d6777c71%3A0x75c24ab6cb121bed!2sVilla%20Carlos%20Paz%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1657638856097!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </article>
+            <article class="tercercontenedor">
+                <h2 class="tercercontenedor__pregunta">¿Hacia donde hacemos viajes?</h2>
+                <p>Hacemos viajes a todas las provincias del pais y tambien dentro de todo Cordoba</p>
+                <img src="../assets/imagen/logistica.jpg" alt="">
+            </article>
+            <article class="cuartocontenedor">
+                <h2 class="cuartocontenedor__titulo">Nuestra Flota</h2>
+                <!--Carrusel de fotos-->
+                <div class="cuartocontenedor__imagenes">
+                <img class="imagenes" src="../assets/imagen/ernesto-leon-4H_I-HRjkyA-unsplash.jpg" alt="">
+                <img class="imagenes" src="../assets/imagen/gabriel-santos-GBVDilE8yvI-unsplash.jpg" alt="">
+                <img class="imagenes" src="../assets/imagen/esteban-zapata-f8Nb18iHdPo-unsplash.jpg" alt="">
+                <img class="imagenes" src="../assets/imagen/han-chenxu-20qcctvyR1Q-unsplash.jpg" alt="">
+                <img class="imagenes" src="../assets/imagen/mak-BG0wHiGvfvY-unsplash.jpg" alt="">
+                <img class="imagenes" src="../assets/imagen/nur-alamin-xifUN_Mkf8Y-unsplash.jpg" alt="">
+                </div> 
+            </article>
+        </section>
+        <div class="contenido">
+            <h1 class="nombre-empresa">MUDA<span>FLET</span></h1>
+            <div class="contenedor-contacto">
+                <div class="formulario-contacto">
+                    <h2>¡Deja tus datos y te contactamos!</h2>
+            <form  action="procesar.php" name="Contacto" method="post">
+                <p class="prueba">
+                    <label class="formulario__item1">Nombre<input name="nombre" type="text"  required>
+                    </label>
+                </p>
+                <p>
+                    <label class="formulario__item2">
+                        Apellido<input name="apellido" type="text"  required>
+                    </label>
+                </p>
+                <p>
+                    <label class="formulario__item3">
+                        Numero de telefono<input name="Numero de telefono" type="tel"  required>
+                    </label>
+                </p>
+                <p>
+                    <label class="formulario__item4">
+                    Email<input name="Email" type="email"  required>
+                    </label>
+                </p>
+                <p>
+                    Tipo De Mudanza <select class="formulario__item5" name="Tipo de mudanza">
+                        <option value="Empresa">Mudanza de una oficina</option>
+                        <option value="Casa">Mudanza de una casa</option>
+                    </select>
+                </p>
+                <p class="bloque">
+                Mensaje<textarea name="texto" id="" cols="30" rows="10" placeholder="Escribe tu consulta"></textarea>
+                </p>
+                <p class="bloque">
+                <button type="submit">Enviar</button>
+                </p>
+            </form>
+        </div>
+    </div>
+    </div>
+    </main>
+    <footer class="pie-de-pagina">
+        <img src="../assets/logo/moving.png" alt="">
+        <p class="email-numero">
+            <div class="numero">
+            <img  src="../assets/logo/telefono.png" width="24px" alt="">
+            3511-2918321
+            </div>
+            <div class="email">
+            <img  src="../assets/logo/correo-electronico.png" width="24px" alt="">
+            email@fsas.com
+            </div>
+        </p>
+        <p class="redes">Seguinos en nuestras redes
+            <div class="instagram">
+        <a class="instagram1" href=""><img width="24px" src="../assets/logo/facebook-app-symbol.png" alt="">MudaFlet</a>
+    </div>
+    <div class="whatsapp">
+        <a class="whatsapp1" href=""><img width="24px" src="../assets/logo/instagram.png" alt="">@Muda_flet</a>
+    </div>
+        </p>
+            </footer>
+
+</body>
+</html>
