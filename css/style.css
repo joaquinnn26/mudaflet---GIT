@@ -75,21 +75,24 @@
     border: 10px;
     border-radius: 10px;
     margin-top: 30px;
-    margin-left: 220px;
+
 }
 
 .primerPaso__titulo{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 2rem;
     color: #fff; 
-    margin-left: 240px;
     text-transform: uppercase;
     text-shadow:blue 5px 1px 4px;
-    
+    text-align: center;
+    margin-top: 40px;
 }
 .imagen__texto{
     display: flex;
     align-items: center;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
 }
 .textos{
     flex-direction: column;
@@ -107,7 +110,7 @@
 }
 
 .boton{ 
-        margin-left: 720px;
+
         margin-top: 20px;
         margin-bottom: 20px;
         background-color: rgb(0, 128, 255);
@@ -119,13 +122,14 @@
         border: 1px solid #fff;
         text-transform: uppercase;
         border: none;
-        width: 20%;
+        width: auto;
+        justify-items: center;
+        align-items: center;
 }
 
 .boton:hover{
     background-color: rgba(0, 128, 255, 0.747);
-    width: 20%;
-}
+    }
 
 /*segundo paso*/
 .segundoPaso{
@@ -136,6 +140,8 @@
     display: flex;
     flex-direction: row-reverse ;
     align-items: center;
+    justify-content: center;
+    justify-items: center;
 }
 
 .segundoPaso__imagen{
@@ -145,7 +151,6 @@
     border: 10px;
     border-radius: 10px;
     margin-top: 30px;
-    margin-right: 200px;
 }
 .textos2{ 
     flex-direction: column;
@@ -169,7 +174,6 @@
 
 
 .boton2{
-    margin-left:250px;;
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: rgba(0, 128, 255, 0.747) ;
@@ -181,7 +185,8 @@
     border: 1px solid #fff;
     text-transform: uppercase;
     border: none;
-    width: 20%;
+    width: auto;
+    justify-content: center;
 }
 
 .boton2:hover{
@@ -202,18 +207,19 @@
     border: 10px;
     border-radius: 10px;
     margin-top: 30px;
-    margin-left: 220px;
+
 }
 
 .imagen__texto3{
     display: flex;
     align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin: 30px;
 }
 
 .tercerPaso__Textos{
     flex-direction: column;
-    margin-left: 10px;
-    padding-left: 10px;
     font-size: 20px;
     color: #fff;
     text-align:center;
@@ -227,8 +233,8 @@
 }
 
 .boton3 {
-    margin-left: 720px;
-    margin-top: 20px;
+
+    margin-top: 50px;
     margin-bottom: 20px;
     background-color:rgba(0, 128, 255, 0.747);
     color: #fff;
@@ -238,7 +244,8 @@
     border: 1px solid #fff;
     text-transform: uppercase;
     border: none;
-    width: 20%;
+    width: auto;
+    justify-content: center;
 }
 .boton3:hover{
         background-color: rgba(0, 128, 255, 0.418);
@@ -657,22 +664,16 @@ footer{
         justify-items: center;
         align-items: center;
     }
-    .primerPaso__imagen{
-        margin-left: 0;
-    }
+    
     .boton{
-        margin-left: 40%;
+        justify-content: center;
         justify-items: center;
         padding: 5px;
         text-align: center;
-        width: 150px;
+        width: auto;
     }
 
 
-    .segundoPaso__imagen{
-        margin-left: 35%;
-
-    }
     .imagen__texto2{
         flex-direction: column;
     }
@@ -680,20 +681,18 @@ footer{
         margin-left: 10px;
     }
     .boton2{
-        margin-left: 37%;
-        width: 150px;
+        width: auto;
+        justify-content: center;
     }
 
 
     .imagen__texto3{
         flex-direction: column;
     }
-    .tercerPaso__imagen{
-        margin-right: 37%;
-    }
+
     .boton3{
-        margin-left: 35%;
-        width: 150px;
+        width: auto;
+        justify-content:center ;
     }
     /*servivios*/
 
