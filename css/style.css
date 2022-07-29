@@ -44,12 +44,18 @@
 .menu__links{
     display: inline-block;
 }
-.menu__links a {
+.link{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px 90px;
+}
+.menu__links a {/*
     text-decoration: none;
     color: white;
     display: block;
     padding: 10px 92px;
-}
+*/}
 
 .menu__links a:hover{
     background-color: rgb(0, 72, 255);
