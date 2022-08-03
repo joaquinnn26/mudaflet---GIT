@@ -20,6 +20,7 @@
 .encabezado__logo{
     margin: 10px;
 }
+
 .encabezado__nombre span {
     color: blue;
 }
@@ -50,16 +51,69 @@
     display: block;
     padding: 10px 90px;
 }
-.menu__links a {/*
+.navbar-brand span{
+    color: blue;
+}
+.navbar-brand{
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 40px;
+    margin-left: 10px;
+}
+.barra_navegacion{
+    background-color: rgba(0, 0, 0, 0.562);
+}
+.menu__links a {
     text-decoration: none;
     color: white;
     display: block;
     padding: 10px 92px;
-*/}
+}
 
 .menu__links a:hover{
     background-color: rgb(0, 72, 255);
 }
+.barra_navegacion{
+    background-color: blue;
+    color: #fff;
+    text-align: center ;
+}
+/*boostrap menu*/
+.footer2 {
+    padding: 20px;;
+}
+.footer2 a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer2 a:hover{
+    font-size: 20px;
+    background-color:rgba(0, 0, 0, 0.203);
+    padding: 5px;
+}
+.footer2 a:active{
+    background-color: rgba(0, 0, 0, 0.546);
+}
+.navbar-nav{
+    margin-left: 20%;
+}
+.navbar{
+    background-color: rgba(0, 0, 255, 0.395);
+    color: #fff;
+}
+.nav-link{
+    background-color: rgba(0, 0, 0, 0.568);
+    color: #fff;
+    
+}
+.nav-link:hover{
+    background-color: blue;
+}
+.navbar-brand{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
 
 /*index*/
 
@@ -99,6 +153,7 @@
     text-align: center;
     justify-items: center;
     justify-content: center;
+    margin:40px
 }
 .textos{
     flex-direction: column;
@@ -108,9 +163,11 @@
     color: #fff;
     text-align:center;
     list-style-position: inside;
+    margin-top: 10px;
 }
 .primerPaso__titulo2{
     margin: 10px;
+    margin-top: 20px;
     font-family: 'Roboto Condensed', sans-serif;
     text-transform: uppercase;
 }
@@ -119,7 +176,7 @@
 
         margin-top: 20px;
         margin-bottom: 20px;
-        background-color: rgb(0, 128, 255);
+        background-color:blue;
         color:#fff;
         font-size: 20px;
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -134,7 +191,7 @@
 }
 
 .boton:hover{
-    background-color: rgba(0, 128, 255, 0.747);
+    background-color: rgba(0, 0, 255, 0.642);
     }
 
 /*segundo paso*/
@@ -166,8 +223,10 @@
     color: #fff;
     text-align:center;
     list-style-position: inside;
+    margin-top: 15px; ;
 
 }
+
 
 .segundoPaso__titulo{
     margin: 10px;
@@ -182,7 +241,7 @@
 .boton2{
     margin-top: 20px;
     margin-bottom: 20px;
-    background-color: rgba(0, 128, 255, 0.747) ;
+    background-color:blue ;
     color: #fff;
     font-size: 20px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -196,7 +255,7 @@
 }
 
 .boton2:hover{
-    background-color: rgba(0, 128, 255, 0.418);
+    background-color: rgba(0, 0, 255, 0.642);
     }
 
 /* Tercer Paso */
@@ -242,7 +301,7 @@
 
     margin-top: 50px;
     margin-bottom: 20px;
-    background-color:rgba(0, 128, 255, 0.747);
+    background-color:blue;
     color: #fff;
     font-size: 20px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    border-radius: 5px;
@@ -254,7 +313,7 @@
     justify-content: center;
 }
 .boton3:hover{
-        background-color: rgba(0, 128, 255, 0.418);
+    background-color: rgba(0, 0, 255, 0.642);
 }
 /*footer*/
 
@@ -263,6 +322,7 @@ footer{
     color: #fff;
     max-width: 100%;
     max-height: 100%;
+
 }
 
 .pie-de-pagina{
@@ -351,6 +411,7 @@ footer{
 .contenedor-contacto{
     box-shadow: 0 0 20px 0 rgb(255, 255, 255 ,.3);
     background-color: rgba(0, 0, 0, 0.486);
+    margin: 20px;
 }
 .contenedor-contacto > * {
     padding: 1rem;
@@ -527,7 +588,12 @@ footer{
     transform: translate(20px 20px);
 
 }
-
+.titulo_card{
+    color: #fff;
+}
+.card{
+    background-color:rgba(0, 0, 0, 0.452);
+}
 /* referencia */
 
 .video__referencia{
@@ -539,6 +605,11 @@ footer{
 .video__titulo{
     margin: 10px;
     font-size: 30px;
+}
+.grid_contenedor{
+    background-color: rgba(0, 0, 0, 0.514);
+    margin: 10px;
+    padding: 10px;
 }
 
 
