@@ -1,3 +1,28 @@
+@import "variables";
+@import "footernav";
+
+
+.boton{
+    &:hover{
+        background-color: $boton-hover;
+    }
+}
+
+.boton2{
+    &:hover{
+        background-color: $boton-hover
+    }
+}
+
+.boton3{
+    &:hover{
+        background-color: $boton-hover
+    }
+}
+
+
+
+
 
 * {
     margin: 0;
@@ -7,9 +32,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&family=Josefin+Sans:ital,wght@1,200&family=Roboto+Condensed:wght@300&display=swap');
 
 #background {
-    /*background-image:url(../assets/background/mockup-photos-5nUNdLueQio-unsplash\ \(1\).jpg); */
+   
     background-size:cover;
-    background-image: url(../assets/background/ameer-basheer-Xrx3WWyrwes-unsplash.jpg);
+    background-image:$background-imagen;
     width: 100%;
 }
 /* menu */

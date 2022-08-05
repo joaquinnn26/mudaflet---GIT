@@ -1,0 +1,22 @@
+@import "variables";
+#background{
+    background-color: $background-imagen;
+}
+footer{
+    background-color: $footernav;
+    color: $color-letra
+}
+.contenedor_navbar{
+    img{
+        width: $tamaño-icono;
+    }
+    div{
+        ul{
+            li{
+                a{
+                    color: $color-letra;
+                }
+            }
+        }
+    }
+}

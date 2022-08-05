@@ -1,5 +1,32 @@
-@use "variables","stylescss";
 @import url("https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&family=Josefin+Sans:ital,wght@1,200&family=Roboto+Condensed:wght@300&display=swap");
+#background {
+  background-color: url(../assets/background/ameer-basheer-Xrx3WWyrwes-unsplash.jpg);
+}
+
+footer {
+  background-color: rgba(0, 0, 255, 0.395);
+  color: #fff;
+}
+
+.contenedor_navbar img {
+  width: 40px;
+}
+.contenedor_navbar div ul li a {
+  color: #fff;
+}
+
+.boton:hover {
+  background-color: rgba(0, 0, 255, 0.642);
+}
+
+.boton2:hover {
+  background-color: rgba(0, 0, 255, 0.642);
+}
+
+.boton3:hover {
+  background-color: rgba(0, 0, 255, 0.642);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +34,6 @@
 }
 
 #background {
-  /*background-image:url(../assets/background/mockup-photos-5nUNdLueQio-unsplash\ \(1\).jpg); */
   background-size: cover;
   background-image: url(../assets/background/ameer-basheer-Xrx3WWyrwes-unsplash.jpg);
   width: 100%;
@@ -206,10 +232,6 @@
   width: auto;
   justify-items: center;
   align-items: center;
-}
-
-.boton:hover {
-  background-color: rgba(0, 0, 255, 0.642);
 }
 
 /*segundo paso*/
@@ -840,13 +862,6 @@ footer {
     grid-template-rows: repeat(2, 1fr);
     margin-top: 50px;
     row-gap: 50px;
-  }
-  .ofertas_caja{
-    flex-direction: column;
-    gap: 10px;
-    max-height: 100%;
-    max-width: 100%;
-
   }
 }
 
