@@ -764,6 +764,11 @@ footer {
   animation-delay: 3s;
 }
 
+.ofertas_caja{
+  max-width: 100%;
+
+}
+
 /* media */
 @media only screen and (max-width: 576px) {
   /* generales */
@@ -863,6 +868,15 @@ footer {
     margin-top: 50px;
     row-gap: 50px;
   }
+  .ofertas_caja{
+    flex-direction: column;
+    max-width: 100%;
+
+  }
+  .card{
+    width: 300px;
+    margin: 10px;
+    }
 }
 
 /*# sourceMappingURL=style.css.map */
