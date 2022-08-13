@@ -15,7 +15,7 @@ footer {
   color: #fff;
 }
 
-.boton:hover {
+.boton:hover, .boton3:hover, .boton2:hover {
   background-color: rgba(0, 0, 255, 0.642);
 }
 
@@ -27,6 +27,29 @@ footer {
   background-color: rgba(0, 0, 255, 0.642);
 }
 
+/* MAPS*/
+.navbar-brand span {
+  color: blue;
+}
+
+.primerPaso__titulo {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2rem;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: blue 5px 1px 4px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+/*MIXIN */
+.primerPaso__imagen {
+  width: 400px;
+  border-radius: 20px;
+  border: 10px;
+}
+
+/*EXTEND*/
 * {
   margin: 0;
   padding: 0;
@@ -217,7 +240,7 @@ footer {
   text-transform: uppercase;
 }
 
-.boton {
+.boton, .boton2, .boton3 {
   margin-top: 20px;
   margin-bottom: 20px;
   background-color: blue;
@@ -232,6 +255,10 @@ footer {
   width: auto;
   justify-items: center;
   align-items: center;
+}
+
+.boton:hover, .boton2:hover, .boton3:hover {
+  background-color: rgba(0, 0, 255, 0.642);
 }
 
 /*segundo paso*/
@@ -764,11 +791,6 @@ footer {
   animation-delay: 3s;
 }
 
-.ofertas_caja{
-  max-width: 100%;
-
-}
-
 /* media */
 @media only screen and (max-width: 576px) {
   /* generales */
@@ -802,7 +824,7 @@ footer {
     justify-items: center;
     align-items: center;
   }
-  .boton {
+  .boton, .boton2, .boton3 {
     justify-content: center;
     justify-items: center;
     padding: 5px;
@@ -868,15 +890,7 @@ footer {
     margin-top: 50px;
     row-gap: 50px;
   }
-  .ofertas_caja{
-    flex-direction: column;
-    max-width: 100%;
-
-  }
-  .card{
-    width: 300px;
-    margin: 10px;
-    }
 }
+/*operadoeres matematicos*/
 
 /*# sourceMappingURL=style.css.map */

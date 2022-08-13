@@ -18,11 +18,52 @@
     &:hover{
         background-color: $boton-hover
     }
+};
+
+/* MAPS*/
+$estilos:(
+    color:blue,
+    centro:center,
+    titulo:2rem,
+    subtitulo:1rem,
+    margenes:20px,
+    espaciado:10px,
+    colorletra:#fff,
+);
+
+.navbar-brand span{ 
+    color: map-get($map: $estilos, $key:color );
+}
+.primerPaso__titulo {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: map-get($map: $estilos, $key:titulo );
+    color: map-get($map: $estilos, $key:colorletra );
+    text-transform: uppercase;
+    text-shadow: map-get($map: $estilos, $key:color ) 5px 1px 4px;
+    text-align: map-get($map: $estilos, $key:centro);
+    margin-top: 40px;
+  }
+
+  /*MIXIN */
+@mixin margenesytamañoimagen($tamañoimg,$radioborde,$borde) {
+  width: $tamañoimg;
+  border-radius: $radioborde;
+  border: $borde;  
 }
 
+.primerPaso__imagen{
+    @include margenesytamañoimagen(400px,20px,10px)
+}
 
+/*EXTEND*/
 
+.boton2{
+    @extend .boton;
+}
 
+.boton3{
+    @extend .boton;
+}
 
 * {
     margin: 0;
@@ -847,3 +888,6 @@ footer{
     row-gap: 50px;
     }
 }
+
+
+/*operadoeres matematicos*/
