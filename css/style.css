@@ -801,6 +801,7 @@ footer {
     padding: 10px 22px;
   }
   /*index*/
+
   .contenedor {
     max-width: 100%;
     max-height: 100%;
@@ -808,6 +809,10 @@ footer {
   .primerPaso {
     max-width: 100%;
   }
+  .primerPaso__subtitulo{
+  padding-left: 0px;
+  }
+
   .primerPaso__titulo {
     font-size: 25px;
     margin-left: 0;
@@ -820,9 +825,10 @@ footer {
     align-items: center;
   }
   .textos {
-    margin-left: 20px;
     justify-items: center;
     align-items: center;
+    margin-left: 0px;
+    padding-left: 0px;
   }
   .boton, .boton2, .boton3 {
     justify-content: center;
@@ -850,7 +856,14 @@ footer {
   }
   /*servivios*/
   .video {
-    width: auto;
+    width: 80%;
+    margin: 20px;
+  }
+  .card{
+    margin:20px
+  }
+  .ofertas_caja{
+    max-width: 100%;
   }
   .servicios {
     flex-direction: column-reverse;
@@ -867,6 +880,13 @@ footer {
     grid-template-rows: repeat(4, 1fr);
     gap: 10px;
     margin: 10px;
+    justify-items: center;
+  }
+  .higlights{
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    justify-items: center;
   }
   /* Nosotros */
   .segundocontenedor__mapa {
