@@ -617,6 +617,7 @@ footer {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1;
   gap: 10px;
+  margin:10px;
 }
 
 .higlights {
@@ -702,7 +703,10 @@ footer {
   align-items: center;
   text-align: center;
 }
-
+.referencia__parrafo{
+  font-weight: bold;
+  font-size: 20px;
+}
 .contenedor__referencias__grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
